@@ -4,3 +4,8 @@
 .navbar-brand {
     padding: 5px 15px;
 }
+
+#kereso {
+    width: 250px;
+    float: left;
+}
