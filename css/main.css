@@ -4,3 +4,14 @@
 .navbar-brand {
     padding: 5px 15px;
 }
+
+/*slider*/
+#myCarousel .item {
+    height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+#slide1 {
+    background: url('') top center no-repeat;
+}
