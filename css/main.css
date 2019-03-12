@@ -5,6 +5,7 @@
     padding: 5px 15px;
 }
 
+<<<<<<< HEAD
 /*slider*/
 #myCarousel .item {
     height: 450px;
@@ -14,4 +15,9 @@
 
 #slide1 {
     background: url('') top center no-repeat;
+=======
+#kereso {
+    width: 250px;
+    float: left;
+>>>>>>> e65a79135e6c6d5c645f47632bb2cb1b261f1815
 }
