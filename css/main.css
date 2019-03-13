@@ -1,5 +1,22 @@
 @charset "utf-8";
 
+#featuresHeader {
+    margin-top: 80px;
+    border-top: 1px solid #bebebe;
+}
+
+#features{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#features img {
+    margin: 20px 0;
+}
+
+#features .btn-block {
+    padding: 10px;
+}
 
 .kozep {
     text-align: center;
@@ -40,4 +57,12 @@
 
 .carousel-caption h3{
     font-size: 32px;
+}
+
+.tab-pane {
+    padding-top: 15px;
+}
+
+.tab-pane img.thumbnail{
+    margin: 0 20px 10px 0;
 }
