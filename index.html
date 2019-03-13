@@ -78,23 +78,58 @@
       <!-- container vége -->
     </nav>
     <!-- Képernyő teljes szélességéig igazítjuk a tartalmat-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="slider-container">
       <div class="carousel slide" id="myCarousel" data-ride="carousel">
-        <div class="carousel inner">
+        <ul class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+        </ul>
+        <div class="carousel-inner">
           <div class="item active" id="slide1">
             <div class="carousel-caption">
               <h3>Bootstrap 3</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magnam eligendi animi labore nam a eaque, doloremque numquam tempore quod quae rem iusto autem mollitia consequatur. Beatae earum ab commodi.</p>
             </div> <!--carousel caption vége-->
           </div> <!--slide1 vége-->
+          <div class="item" id="slide2">
+            <div class="carousel-caption">
+              <h3>Bootstrap 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magnam eligendi animi labore nam a eaque, doloremque numquam tempore quod quae rem iusto autem mollitia consequatur. Beatae earum ab commodi.</p>
+            </div> <!--carousel caption vége-->
+          </div> <!--slide2 vége-->
         </div> <!-- carousel inner vége-->
+        <!-- Carousel controls-->
+        <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#myCarousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
       </div> <!-- myCarousel vége-->
     </div> <!-- container-fluid vége -->
-    <div class="contentHeader">
+    <div class="container kozep" id="contentHeader">
+      <div class="page-header">
+        <h1>Elsődleges címsor</h1><br>
+        <small>Más tartalom</small>
+      </div>
+      <p class="lead">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex quia officiis quaerat ab adipisci iste, atque expedita illum corporis consequatur labore delectus voluptatibus, fuga temporibus aspernatur! Recusandae, vitae facilis!
+      </p>
+      <a href="" class="btn btn-lg btn-primary">Feliratkozom</a>
+      <a href="" class="btn btn-lg btn-link">Megnézem a kurzusokat</a>
+    </div>    <!-- content header vége-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Szolgáltatások</h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores sint suscipit deserunt natus inventore minus tenetur numquam laboriosam. Odit nesciunt maxime mollitia reprehenderit doloribus laboriosam a ad animi! Aspernatur.</p>
+        </div>
+      </div>
+      <div class="row" id="features">
 
-    </div>
-    <!-- content header vége-->
-    <div class="row" id="features"></div>
+      </div><!--features vége-->
+    </div><!--container vége-->
+    
     <div class="row" id="info"></div>
     <div class="row" id="courses"></div>
     <footer></footer>
