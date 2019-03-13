@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+
+.kozep {
+    text-align: center;
+}
+
+#slider-container {
+    padding: 0;
+}
+
 #kereso {
     width: 250px;
     float: left;
@@ -17,5 +26,18 @@
 }
 
 #slide1 {
-    background: url('') top center no-repeat;
+    background: url('../images/item1.png') top center no-repeat;
+}
+
+#slide2 {
+    background: url('../images/item2.png') top center no-repeat;
+}
+
+.carousel-caption {
+    font-size: 20px;
+}
+
+
+.carousel-caption h3{
+    font-size: 32px;
 }
